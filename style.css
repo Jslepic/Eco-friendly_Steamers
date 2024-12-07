@@ -1,0 +1,122 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  font-family: "Afacad", sans-serif;
+}
+
+.hero {
+  background-image: url(https://arbordayblog.org/wp-content/uploads/2014/07/forest-stream-iStock-185069544.jpg);
+}
+
+header {
+  background-color: pink;
+  height: 100px;
+}
+
+img {
+  background-color: pink;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.nav ul {
+  background-color: ppink;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.nav li {
+  background-color: pink;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.nav a {
+  background-color: pink;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+section {
+  background-color: aliceblue;
+  width: 840px;
+  margin: 50px auto 0 auto;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  background-color: blue;
+  margin-right: 35px; /*had to make it 35px instead of 40px to make it work for my version */
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.text-quote {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  position: relative;
+  top: 20%;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#quote-form-container {
+  background-color: pink;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+  color: pink;
+  border-radius: 20px;
+}
+
+#quote-form {
+  background-color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+button {
+  border: none;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+/*styling to make the hero image only in the top half of the page*/
+.hero-section {
+  height: 50vh; /* Cover the top half of the viewport */
+  background-image: url(https://arbordayblog.org/wp-content/uploads/2014/07/forest-stream-iStock-185069544.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
